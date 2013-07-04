@@ -19,6 +19,10 @@ module CurrencyConverterCis
     Currency.exchange(money, from, to)     
   end
 
+  def self.all_currency_code
+     CountryData::Country.all_currency
+  end
+
 end
 
 

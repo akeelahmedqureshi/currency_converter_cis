@@ -17,6 +17,11 @@ module CountryData
     def self.country_by_ip(ip) 
        self.country_by_id(GeoRequest.location(ip))          
     end
+
+    def self.all_currency
+      data = YAML.load(File.read(File.join(File.dirname(__FILE__), 'data', 'countries.yaml')).to_s)
+      data.collect{|key,val| val['currency']}.uniq
+    end
   end
   
 end
