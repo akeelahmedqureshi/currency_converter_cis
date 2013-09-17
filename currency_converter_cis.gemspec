@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
-  s.name        = 'currency_converter_CIS'
-  s.version     = '0.0.1'
+  s.name        = 'currency_converter_cis'
+  s.version     = '0.0.4'
   s.date        = '2013-07-04'
   s.summary     = "This gem caters the requirement to fetch the country related details based up on the ip-address or the country code. You can also convert an amount from one currency to another"
   s.description = "With the use to this gem , The two major issues will be solved the first one is to find out the various contry related details using either the contry code or the ip-address and the second one is to convert an amount from one currency to another, There are various scenarios where user has to show user locale related information based up on his/her ip-address So in those cases this gem will be really useful."
