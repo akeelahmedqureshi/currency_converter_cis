@@ -18,7 +18,7 @@ module Currency
     
     result = "%.2f" % (ex_rate * money)
     result.to_f
-  end  
+  end
 
   def self.exchange_rate
     begin

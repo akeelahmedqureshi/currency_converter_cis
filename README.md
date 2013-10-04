@@ -8,13 +8,13 @@ INSTALLTION
 First thing you need to do is the installation , you can follow the below mentioned steps to install the gem inside your rails application.
 You need to add sudo if you are not using rvm(ruby version manager)
 <pre>
-gem install currency_converter_CIS
+gem install currency_converter_cis
 </pre>
 
  
 Add this following line in your Gemfile and then run bundle install. 
 <pre>
-gem 'currency_converter_CIS' 
+gem 'currency_converter_cis' 
 </pre>
 
 
